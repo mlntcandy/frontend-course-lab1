@@ -39,12 +39,7 @@
   Emmet:
 
   ```css
-  .contact-form
-    > h2.contact-form__title
-    + p.contact-form__paragraph
-    + form.contact-form__form
-    > input[type="email"].contact-form__input
-    + button[type="submit"].contact-form__button;
+  .contact-form>h2.contact-form__title+p.contact-form__paragraph+form.contact-form__form>input[type="email"].contact-form__input+button[type="submit"].contact-form__button
   ```
 
   HTML:
