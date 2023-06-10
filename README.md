@@ -11,7 +11,7 @@
   Emmet:
 
   ```css
-  header.header>.header__wrapper>((a.header__logo>img.header__logo__img)+(nav.header__nav>a.header__link*3))+button.header__button-sandwich
+  header.header>.header__wrapper>((a.header__logo.logo>img.logo__img)+(nav.header__navigation.navigation>a.navigation__link*3))+button.header__button-sandwich
   ```
 
   HTML:
@@ -19,8 +19,8 @@
   ```html
   <header class="header">
     <div class="header__wrapper">
-      <a href="" class="header__logo">
-        <img src="" alt="" class="header__logo__img" />
+      <a href="" class="header__logo logo">
+        <img src="" alt="" class="logo__img" />
       </a>
       <nav class="header__nav">
         <a href="" class="header__link"></a>
